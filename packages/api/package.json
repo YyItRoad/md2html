@@ -1,0 +1,26 @@
+{
+  "name": "@md/api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Markdown API service",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsx src/server.mjs",
+    "dev": "tsx src/server.mjs"
+  },
+  "dependencies": {
+    "@md/core": "workspace:*",
+    "@md/shared": "workspace:*",
+    "es-toolkit": "^1.0.0",
+    "express": "^4.18.2",
+    "jsdom": "^24.0.0",
+    "juice": "^10.0.0"
+  },
+  "devDependencies": {
+    "@md/config": "workspace:*",
+    "tsx": "^4.7.1"
+  }
+}
